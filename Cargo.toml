@@ -7,13 +7,13 @@ license = "Apache-2.0"
 edition = "2018"
 
 [dependencies]
-digest = "0.10.6"
-generic-array = "0.14.6"
+digest = "0.10.7"
+generic-array = "0.14.7"
 hmac = "0.12.1"
 
 [dev-dependencies]
-sha2 = "0.10"
-hex = "0.4"
-typenum = "1.12"
+sha2 = "0.10.8"
+hex = "0.4.3"
+typenum = "1.17.0"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
